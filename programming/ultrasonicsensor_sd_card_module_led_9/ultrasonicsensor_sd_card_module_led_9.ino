@@ -61,19 +61,19 @@ void loop()
   {
     if (distance >= 0 && distance <= 5)
     {
-      playAudio("song1.wav");
+      playAudio("abcd.wav");
       illuminateRainbow(3);
       currentSong = "abcd.wav";
     }
     else if (distance > 5 && distance <= 10)
     {
-      playAudio("song2.wav");
+      playAudio("efgh.wav");
       illuminateRainbow(6);
       currentSong = "efgh.wav";
     }
     else if (distance > 10 && distance <= 15)
     {
-      playAudio("song3.wav");
+      playAudio("ijkl.wav");
       illuminateRainbow(9);
       currentSong = "ijkl.wav";
     }
